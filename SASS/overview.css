@@ -1,0 +1,112 @@
+h2 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 1.875rem;
+}
+
+.over_view .over_view_card {
+  background: #252a41;
+  padding: 1.5625rem 1.25rem;
+  margin-bottom: 1.25rem;
+  border-radius: .3125rem;
+}
+
+.over_view .over_view_card .row {
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.over_view .over_view_card .row-1 {
+  margin-bottom: 1.875rem;
+}
+
+.over_view .over_view_card .row-1 span {
+  color: #8b97c6;
+}
+
+.over_view .over_view_card .row-2 span {
+  color: white;
+  font-size: 28px;
+}
+
+.over_view .over_view_card .row-2 .activity_status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.over_view .over_view_card .row-2 .activity_status img {
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+}
+
+.over_view .over_view_card .row-2 .activity_status .red {
+  color: #dc414c;
+}
+
+.over_view .over_view_card .row-2 .activity_status span {
+  color: #1db489;
+  font-size: 14px;
+  margin-left: .1875rem;
+}
+
+@media (min-width: 768px) {
+  .over_view {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .over_view .over_view_card {
+    -ms-flex-preferred-size: calc(100% / 2 - 10px);
+        flex-basis: calc(100% / 2 - 10px);
+    margin-right: 1.25rem;
+  }
+  .over_view .over_view_card:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .over_view {
+    max-width: 1300px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .over_view .over_view_card {
+    margin-right: 1.25rem;
+    -ms-flex-preferred-size: calc(100% / 4 - 20px);
+        flex-basis: calc(100% / 4 - 20px);
+  }
+  .over_view .over_view_card:nth-child(2n) {
+    margin-right: 1.25rem;
+  }
+  .over_view .over_view_card:last-child {
+    margin-right: 0;
+  }
+  .over_view .over_view_card:nth-child(4) {
+    margin-right: 0;
+  }
+  .over_view .over_view_card:nth-child(5) {
+    margin-bottom: 0;
+  }
+  .over_view .over_view_card:nth-child(6) {
+    margin-bottom: 0;
+  }
+  .over_view .over_view_card:nth-child(7) {
+    margin-bottom: 0;
+  }
+  .over_view .over_view_card:nth-child(8) {
+    margin-bottom: 0;
+  }
+}
+/*# sourceMappingURL=overview.css.map */

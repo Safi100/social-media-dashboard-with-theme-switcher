@@ -1,0 +1,70 @@
+@import "variables.scss";
+h2{
+    color:$White;
+    font-size: 25px;
+    margin-bottom: 1.875rem;
+}
+.over_view{
+    .over_view_card{
+        background: $Dark-Desaturated-Blue;
+        padding: 1.5625rem 1.25rem;
+        margin-bottom: 1.25rem;
+        border-radius: .3125rem;
+        .row{
+            font-weight: 700;
+            display: flex;
+            justify-content: space-between;          
+        }
+        .row-1{
+            margin-bottom: 1.875rem;
+            span{color: $Desaturated-Blue;}
+        }
+        .row-2{
+            span{color:$White;font-size: 28px;}
+            .activity_status{
+                img{transform: translateY(1px);}
+                display: flex;
+                align-items: center;
+                .red{color: $Bright-Red;}
+                span{
+                    color:$Lime-Green;
+                    font-size: 14px;
+                    margin-left: .1875rem;
+                }
+            }
+            
+        }
+    }
+    
+}
+
+// responsive overview div
+@media(min-width:768px){
+    .over_view{
+        display: flex;
+        flex-wrap: wrap;
+        .over_view_card{
+            flex-basis: calc(100% / 2 - 10px);
+            margin-right: 1.25rem;    
+            &:nth-child(2n){margin-right: 0;}
+        }
+    }
+    }
+
+@media (min-width:1000px) {
+    .over_view{       
+        max-width: 1300px;
+        justify-content: space-around;
+        .over_view_card{
+            margin-right: 1.25rem;            
+            flex-basis: calc(100% / 4 - 20px);   
+            &:nth-child(2n){margin-right: 1.25rem;}    
+            &:last-child{margin-right:0;}
+            &:nth-child(4){margin-right:0;}
+            &:nth-child(5){margin-bottom:0;}
+            &:nth-child(6){margin-bottom:0;}
+            &:nth-child(7){margin-bottom:0;}
+            &:nth-child(8){margin-bottom:0;}
+        }
+    }
+}

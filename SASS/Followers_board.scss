@@ -7,13 +7,14 @@
         h3{color:$Desaturated-Blue; margin-bottom: 1.5625rem;}
     }
     
-    .toggle-div{
+    .toggle-div{  
         display: flex;
         align-items: center;
         justify-content: space-between;
         margin-top: 1.25rem;
         span{color:$Desaturated-Blue;font-weight: 700;}
     .toggle{
+        &:hover{cursor: pointer;}
         height: 1.5625rem;
         width: 3.125rem;
         border-radius: 8.0625rem;
@@ -46,6 +47,7 @@
     padding: 30px 0;
     width: 100%;
     .followers_card{
+        &:hover{cursor: pointer;}
         position: relative;
         font-weight: 700;       
         display: flex;

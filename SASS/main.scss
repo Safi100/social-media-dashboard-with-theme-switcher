@@ -43,13 +43,13 @@ body::before {
             .followers_card{
                 background:$Dark-Desaturated-Blue;
                 h2{color:$White;}
-                .app-name{span{color:$Dark-Grayish-Blue}}
+                .app-name{span{color:$Desaturated-Blue}}
             }
         }
         h2{color: $White;}
         .over_view{
             .over_view_card{
-                .row-1{span{color:$Dark-Grayish-Blue ;}}
+                .row-1{span{color:$Desaturated-Blue;}}
                 .row-2{.number{color:$White;}}
             }
         }
@@ -69,7 +69,7 @@ body::before {
             .followers_card{
                 background:$Light-Grayish-Blue;
                 h2{color:$Very-Dark-Blue;}
-                .app-name{span{color:$Very-Dark-Blue}}
+                .app-name{span{color:$Dark-Grayish-Blue}}
             }  
         }
         h2{color: $Very-Dark-Blue;}

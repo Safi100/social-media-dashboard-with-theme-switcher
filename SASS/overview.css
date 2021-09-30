@@ -11,6 +11,11 @@ h2 {
   border-radius: .3125rem;
 }
 
+.over_view .over_view_card:hover {
+  cursor: pointer;
+  background-color: #f5f7ff;
+}
+
 .over_view .over_view_card .row {
   font-weight: 700;
   display: -webkit-box;
@@ -25,12 +30,7 @@ h2 {
   margin-bottom: 1.875rem;
 }
 
-.over_view .over_view_card .row-1 span {
-  color: #8b97c6;
-}
-
 .over_view .over_view_card .row-2 span {
-  color: white;
   font-size: 28px;
 }
 

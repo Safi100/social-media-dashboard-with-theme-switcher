@@ -6,6 +6,7 @@ h2{
 }
 .over_view{
     .over_view_card{
+        &:hover{cursor: pointer;background-color: $Very-Pale-Blue;}
         background: $Dark-Desaturated-Blue;
         padding: 1.5625rem 1.25rem;
         margin-bottom: 1.25rem;
@@ -17,10 +18,9 @@ h2{
         }
         .row-1{
             margin-bottom: 1.875rem;
-            span{color: $Desaturated-Blue;}
         }
         .row-2{
-            span{color:$White;font-size: 28px;}
+            span{font-size: 28px;}
             .activity_status{
                 img{transform: translateY(1px);}
                 display: flex;

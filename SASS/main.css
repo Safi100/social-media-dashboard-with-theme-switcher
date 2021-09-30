@@ -195,7 +195,6 @@
         flex-wrap: wrap;
   }
   .followers_div .followers_card {
-    max-width: 100%;
     -ms-flex-preferred-size: calc(100% / 2 - 10px);
         flex-basis: calc(100% / 2 - 10px);
   }
@@ -215,7 +214,7 @@
   .followers_div {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    max-width: 1300px;
+    width: 100%;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
@@ -314,7 +313,7 @@ h2 {
 
 @media (min-width: 1000px) {
   .over_view {
-    max-width: 1300px;
+    width: 100%;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }

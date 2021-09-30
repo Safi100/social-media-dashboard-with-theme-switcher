@@ -96,7 +96,6 @@
                 display: flex;
                 flex-wrap: wrap;
             .followers_card{
-                max-width: 100%;
                 flex-basis: calc(100% / 2 - 10px);
                 &:first-child{margin-right: 20px;margin-bottom: 20px;}
                 &:nth-child(2){margin-bottom: 20px;}
@@ -107,7 +106,7 @@
     @media(min-width:1000px){
         .followers_div{
             flex-wrap: nowrap;
-            max-width: 1300px;
+            width:100%;
             justify-content: space-around;
             .followers_card{
                 margin: 0 !important;

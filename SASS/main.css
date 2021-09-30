@@ -85,6 +85,10 @@
 }
 
 .followers_div .followers_card {
+  -webkit-transition: -webkit-filter .5s;
+  transition: -webkit-filter .5s;
+  transition: filter .5s;
+  transition: filter .5s, -webkit-filter .5s;
   position: relative;
   font-weight: 700;
   display: -webkit-box;
@@ -104,6 +108,8 @@
 
 .followers_div .followers_card:hover {
   cursor: pointer;
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
 }
 
 .followers_div .followers_card:not(:last-child) span {
@@ -230,6 +236,10 @@ h2 {
 }
 
 .over_view .over_view_card {
+  -webkit-transition: -webkit-filter .5s;
+  transition: -webkit-filter .5s;
+  transition: filter .5s;
+  transition: filter .5s, -webkit-filter .5s;
   background: #252a41;
   padding: 1.5625rem 1.25rem;
   margin-bottom: 1.25rem;
@@ -238,7 +248,8 @@ h2 {
 
 .over_view .over_view_card:hover {
   cursor: pointer;
-  background-color: #f5f7ff;
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
 }
 
 .over_view .over_view_card .row {

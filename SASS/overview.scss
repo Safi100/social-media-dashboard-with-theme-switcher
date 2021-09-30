@@ -6,7 +6,8 @@ h2{
 }
 .over_view{
     .over_view_card{
-        &:hover{cursor: pointer;background-color: $Very-Pale-Blue;}
+        &:hover{cursor: pointer;filter: brightness(90%);}
+        transition: filter .5s;
         background: $Dark-Desaturated-Blue;
         padding: 1.5625rem 1.25rem;
         margin-bottom: 1.25rem;

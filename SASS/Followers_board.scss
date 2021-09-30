@@ -47,7 +47,8 @@
     padding: 30px 0;
     width: 100%;
     .followers_card{
-        &:hover{cursor: pointer;}
+        &:hover{cursor: pointer;filter: brightness(90%);}
+        transition: filter .5s;
         position: relative;
         font-weight: 700;       
         display: flex;

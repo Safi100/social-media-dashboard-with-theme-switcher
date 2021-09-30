@@ -1,19 +1,20 @@
-var tog = document.getElementById("toggle");
-var inside = document.getElementById("inside")
-var safi = 5;
-tog.onclick = function () {
-    if (safi == "5") {
-        safi = 19;
+var toggle = document.getElementById("toggle");
+var inside = document.getElementById("inside");
+var html = document.querySelector("html");
+var span = document.querySelector(".toggle-div span");
+
+toggle.addEventListener('click', () => {
+    if (html.classList.contains('dark')) {
+        html.classList.remove('dark');
+        html.classList.add('light');
+        span.textContent = "Light Mode";
         inside.style.transform = "translateX(24px)";
-        tog.style.background = "hsl(230, 22%, 74%)";
-        inside.style.background = " #fff";
         inside.style.transition = "transform .35s";
-
-
     } else {
-        safi = 5;
-        tog.style.background = "linear-gradient( to right, hsl(210, 78%, 56%) , hsl(146, 68%, 55%))";
-        inside.style.background = " hsl(230, 17%, 14%)";
+        html.classList.remove('light');
+        html.classList.add('dark');
+        span.textContent = "Dark Mode";
         inside.style.transform = "translateX(0px)";
+        inside.style.transition = "transform .35s";
     }
-}
+});

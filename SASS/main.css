@@ -358,10 +358,6 @@ body {
   min-height: 100vh;
 }
 
-.container {
-  padding: 2.5rem 1.5625rem;
-}
-
 @media (min-width: 1024px) {
   .container {
         max-width: 1180px;
